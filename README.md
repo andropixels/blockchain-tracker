@@ -13,6 +13,28 @@ cd blockchain-tracker
 ```bash
 docker-compose up --build
 ```
+3. .env file 
+```bash
+# Database
+DATABASE_HOST=localhost
+DATABASE_PORT=5432
+DATABASE_USER=postgres
+DATABASE_PASSWORD=postgres
+DATABASE_NAME=blockchain_tracker
+
+# Moralis API
+MORALIS_API_KEY=
+
+# Email
+    EMAIL_HOST=smtp.gmail.com
+    EMAIL_PORT=587
+    EMAIL_USER=<your-email>
+    EMAIL_PASSWORD=<app-password>
+
+# App
+PORT=3000
+
+```
 
 ## API Documentation
 
